@@ -3,22 +3,36 @@ import minelogo from "./minecraft-logo.webp"
 import "./App.css"
 
 
-class App extends Component{
+function App(){
 
-  render() {
-    return <div className="App">
-      <div className="App-body">
-        <img src={minelogo} alt="Test" className="App-logo"/>
-        <p>
-          Example Minecraft Page with a logo
-        </p>
-      </div>
+  return <div className="App">
+    <div className="App-body">
+      <img src={minelogo} alt="Test" className="App-logo"/>
+      <p>
+        Example Minecraft Page with a logo
+      </p>
     </div>
-  }
+  </div>
 }
 
-
 export default App;
+
+// class App extends Component{
+
+//   render() {
+//     return <div className="App">
+//       <div className="App-body">
+//         <img src={minelogo} alt="Test" className="App-logo"/>
+//         <p>
+//           Example Minecraft Page with a logo
+//         </p>
+//       </div>
+//     </div>
+//   }
+// }
+
+
+
 
 
 
