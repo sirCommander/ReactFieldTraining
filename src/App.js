@@ -1,9 +1,19 @@
 import { Component } from "react"
+import minelogo from "./minecraft-logo.webp"
+import "./App.css"
+
 
 class App extends Component{
 
   render() {
-    return <h1>Hello</h1>
+    return <div className="App">
+      <div className="App-body">
+        <img src={minelogo} alt="Test" className="App-logo"/>
+        <p>
+          Example Minecraft Page with a logo
+        </p>
+      </div>
+    </div>
   }
 }
 
